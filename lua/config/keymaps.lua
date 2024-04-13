@@ -9,3 +9,6 @@ keymap.set("n", "<leader>i", "ciw", opts)
 
 -- Append mode
 keymap.set("n", "<leader>a", "bi", opts)
+
+-- Enter creates new line
+keymap.set("n", "<CR>", "o<Esc>", opts)

@@ -8,6 +8,7 @@ return {
     })
 
     local custom_opts = {
+      default_mappings = true,
       no_selection = true,
     }
 
