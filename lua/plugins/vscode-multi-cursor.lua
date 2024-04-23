@@ -9,7 +9,7 @@ return {
 
     local custom_opts = {
       default_mappings = true,
-      no_selection = true,
+      no_selection = false,
     }
 
     opts = vim.tbl_extend("force", opts, custom_opts)
