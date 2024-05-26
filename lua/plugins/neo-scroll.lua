@@ -1,7 +1,7 @@
 return {
   "karb94/neoscroll.nvim",
   vscode = true,
-  event = "VeryLazy",
+  event = "LazyFile",
   config = function()
     require("neoscroll").setup({})
   end,

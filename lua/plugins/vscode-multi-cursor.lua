@@ -1,6 +1,6 @@
 return {
   "vscode-neovim/vscode-multi-cursor.nvim",
-  event = "VeryLazy",
+  event = "LazyFile",
   vscode = true,
   opts = function(_, opts)
     vim.keymap.set("n", "<C-n>", "mciw*<Cmd>nohl<CR>", {

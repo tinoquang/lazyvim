@@ -5,7 +5,7 @@ local keymap = vim.keymap
 local opts = { noremap = true, silent = true }
 
 -- Delete current word and go to insert mode
-keymap.set("n", "<leader>i", "ciw", opts)
+keymap.set("n", "<leader>i", '"_ciw', opts)
 
 -- Append mode
 keymap.set("n", "<leader>a", "bi", opts)
