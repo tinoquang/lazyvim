@@ -1,4 +1,2 @@
-# 💤 LazyVim
-
-A starter template for [LazyVim](https://github.com/LazyVim/LazyVim).
-Refer to the [documentation](https://lazyvim.github.io/installation) to get started.
+- My lazy vim plugins and custom shortcuts.
+- I use this config along with [vscode-neovim](https://github.com/vscode-neovim/vscode-neovim)
